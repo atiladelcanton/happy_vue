@@ -1,0 +1,38 @@
+.btn-happy{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transition: 0.8s;
+    -webkit-box-shadow: -1px 6px 10px -3px $primaryButtonTextHover; 
+box-shadow: -1px 6px 10px -3px $primaryButtonTextHover;
+    &:hover{
+        text-decoration: none;
+        padding-left: 7px;
+        box-shadow: -1px 6px 10px -3px #1c7388;
+    } 
+}
+.btn-happy-sm{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn-gold{
+    background-color: $primaryButtonColorGold;
+    color: $primaryButtonText;
+    &:hover{
+            color:$primaryButtonTextHover;
+            background-color: $primaryButtonColorGoldHover;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .btn-happy{
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+}

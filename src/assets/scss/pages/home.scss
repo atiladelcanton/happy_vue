@@ -1,0 +1,95 @@
+.home{
+    background: $primaryBg;
+    background: linear-gradient(132deg, $primaryBg 0%, $secondaryBg 100%);
+    height: 100vh;
+    padding-top: 72px;
+    color: $primaryTextColor;
+    .logo{
+        margin-top: 48px;
+
+    }
+
+    .chamada{
+        margin-top: 85px;
+        h2{
+            font-size: 4.6rem;
+            font-weight: 800;
+            line-height: 77px;
+            text-shadow: 0px -1px 2px rgba(28, 115, 136, 1);
+        }
+        
+    }
+    .sub-chamada{
+        font-weight: 600;   
+    }
+
+    .side-right{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: stretch;
+        float: right;
+        span{
+            flex:1;
+            text-align: right;
+            strong{
+                font-size: 1.5rem;
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 320px) {
+    .home{
+        height: 100%;
+        padding-top: 0;
+        .chamada h2 {
+            font-size: 1.6rem;
+            line-height: 27px;
+        }
+    }
+}
+@media only screen and (max-width : 480px) {
+    .home{
+        height: 100%;
+        padding-top: 0;
+        .logo{
+            margin-top: 21px;
+        }
+        .chamada{
+            margin-top: 35px;
+            text-align: center;
+            h2{
+                font-size: 2.6rem;
+                line-height: 37px;
+            }
+        }
+        .sub-chamada {
+            font-weight: 100;
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 4%;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .childrens{
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+            float:none!important;
+        }
+        .side-right {
+            flex-direction: row;
+            height: auto;
+            float: none;
+            justify-content: space-between;
+            span{
+                flex: 0;
+                text-align: left;
+            }
+        }
+    }
+}

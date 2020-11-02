@@ -1,0 +1,44 @@
+.localization{
+    height: 100vh;
+    .full-height{
+        height: 100vh;
+    }
+    .sidebar{
+        padding: 80px 80px 0 80px;
+        h2{
+            margin-top: 90px;
+            color: $primaryTextColor;
+            font-size: 2.7rem;
+            font-weight: 800;
+            text-shadow: 0px -1px 2px rgba(28, 115, 136, 1);
+        }
+        h3{
+            height: 43%;
+            font-size: 1.25rem;
+            color: #fff;
+            font-weight: 800;
+        }
+        .city{
+            color: $primaryTextColor;
+            strong{
+                display: block;
+            }
+        }
+    }
+    .map{
+        padding: 0;
+        height: 100vh;
+        .titlePopup{
+            color:red;
+        }
+        .marker{
+            width:30px;
+            box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        }
+        .btn-add{
+            position: absolute;
+            margin: 57% 0 0 94%;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+@import   '_variables';
+@import '_buttons';
+
+/* PAGES */
+@import     'pages/home';
+@import     'pages/localization';
+@import     'pages/new-orphanage';
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+#app{
+    height: 100vh;
+}
+.side{
+    background: $primaryBg;
+    background: linear-gradient(132deg, $primaryBg 0%, $secondaryBg 100%);
+}

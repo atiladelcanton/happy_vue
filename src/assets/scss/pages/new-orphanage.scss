@@ -1,0 +1,18 @@
+.add-orphanage{
+    .sidebar{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        .logo-sm{
+            width:48px;
+            margin-top: 20px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            height: 99%;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
